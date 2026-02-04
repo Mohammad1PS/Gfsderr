@@ -37,6 +37,8 @@ python -m http.server 5173
 
 Then open `http://localhost:5173` in a browser.
 
+The FastAPI interactive docs are available at `http://localhost:8000/docs`.
+
 ## Smart Contract
 
 Compile and deploy `contracts/DigitalEscrow.sol` with your preferred tooling (Hardhat, Foundry, etc.).

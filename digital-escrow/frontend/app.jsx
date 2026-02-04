@@ -47,6 +47,9 @@ function App() {
       <header>
         <h1>Digital Escrow</h1>
         <p>Connect MetaMask and trigger escrow release after ownership verification.</p>
+        <a className="link" href="http://localhost:8000/docs" target="_blank" rel="noreferrer">
+          View backend API docs
+        </a>
       </header>
 
       <section className="card">
@@ -84,6 +87,10 @@ function App() {
           <p>{status}</p>
         </section>
       )}
+
+      <footer className="muted">
+        Need help? Open the <a href="http://localhost:8000/docs">backend docs</a>.
+      </footer>
     </main>
   );
 }

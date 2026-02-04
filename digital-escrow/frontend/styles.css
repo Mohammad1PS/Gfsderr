@@ -21,6 +21,16 @@ header h1 {
   margin-bottom: 6px;
 }
 
+.link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 .card {
   background: #ffffff;
   border-radius: 16px;
@@ -63,6 +73,10 @@ button:hover {
 .muted {
   color: #64748b;
   font-size: 13px;
+}
+
+footer a {
+  color: inherit;
 }
 
 .status {
